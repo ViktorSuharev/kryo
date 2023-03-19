@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: src/kryo/Main.java
+  visible: false
+- name: test/Tests.java
+  visible: false
+- name: src/kryo/KryoObjectSerializer.java
+  visible: true
+- name: src/kryo/Wizard.java
+  visible: true
+- name: data.bin
+  visible: false

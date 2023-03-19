@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-19T07:42:44" hostname="C11124" time="0.125">
+  <properties/>
+  <testcase name="start" classname="Tests" time="0.125"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+?[0;34mObject after deserialization: Main str., Washington, USA
+?[0m?[0;34mAre objects equal before and after serialization: true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

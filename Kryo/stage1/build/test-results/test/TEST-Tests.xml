@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-19T07:10:32" hostname="C11124" time="0.258">
+  <properties/>
+  <testcase name="start" classname="Tests" time="0.258"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+?[0;34mByte array: [1, -114, 1, 1, 1, 76, 111, 114, 100, 32, 86, 111, 108, 100, 101, 109, 111, 114, -12]
+?[0m?[0;34m[1, -114, 1, 1, 1, 76, 111, 114, 100, 32, 86, 111, 108, 100, 101, 109, 111, 114, -12]
+?[1;31m
+Start test 2?[0m
+?[0;34mByte array: [1, 26, 1, 0, 72, 97, 114, 114, 121, 32, 80, 111, 116, 116, 101, -14]
+?[0m?[0;34m[1, 26, 1, 0, 72, 97, 114, 114, 121, 32, 80, 111, 116, 116, 101, -14]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
