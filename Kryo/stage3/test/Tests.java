@@ -5,18 +5,29 @@ import org.hyperskill.hstest.stage.StageTest;
 import org.hyperskill.hstest.testcase.CheckResult;
 
 public class Tests extends StageTest {
+
     @DynamicTest
-    CheckResult testCustomSerializer() {
-        String street = "Main str.";
-        String city = "Washington";
-        String country = "USA";
-        Address address = new Address(street, city, country);
+    CheckResult test1() {
+        Address address = new Address("Main str.", "Washington", "USA");
+
+        return test(address);
+    }
+
+    @DynamicTest
+    CheckResult test2() {
+        Address address = new Address("Main Boulevard.", "Chicago", "USA");
+
+        return test(address);
+    }
+
+    private CheckResult test(Address address) {
         KryoObjectSerializer kryoObjectSerializer = new KryoObjectSerializer();
-        kryoObjectSerializer.serializeObject(address);
-        Address actual = kryoObjectSerializer.deserializeObject();
-        System.out.println("Are objects equal before and after serialization: "
-                + address.equals(actual));
-        return new CheckResult(address.equals(actual), "Address after serialization should be: Main str., Washington, USA, " +
-                "but your program returned: " + actual.toString());
+        byte[] serialized = kryoObjectSerializer.serializeObject(address);
+        Address actual = kryoObjectSerializer.deserializeObject(serialized);
+
+        return new CheckResult(
+                address.equals(actual),
+                "Address after serialization should be:" + address
+                        + "but your program returned: " + actual.toString());
     }
 }

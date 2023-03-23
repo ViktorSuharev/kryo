@@ -1,12 +1,14 @@
 type: edu
 files:
-- name: src/kryo/Main.java
-  visible: false
 - name: test/Tests.java
   visible: false
 - name: src/kryo/Vacation.java
   visible: true
-- name: src/kryo/KryoObjectSerializer.java
+- name: src/kryo/City.java
   visible: true
-- name: data.bin
-  visible: false
+- name: src/kryo/Ticket.java
+  visible: true
+- name: src/kryo/TicketType.java
+  visible: true
+- name: src/kryo/KryoConfigurator.java
+  visible: true

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-19T07:42:44" hostname="C11124" time="0.125">
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-23T05:52:20" hostname="Viktors-MacBook-Pro.local" time="0.076">
   <properties/>
-  <testcase name="start" classname="Tests" time="0.125"/>
+  <testcase name="start" classname="Tests" time="0.076"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-?[0;34mObject after deserialization: Main str., Washington, USA
-?[0m?[0;34mAre objects equal before and after serialization: true
+?[1;31m
+Start test 2?[0m
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

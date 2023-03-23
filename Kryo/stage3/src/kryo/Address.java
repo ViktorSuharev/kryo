@@ -2,9 +2,9 @@ package kryo;
 
 //do not change code below
 public class Address {
-    private String street;
-    private String city;
-    private String country;
+    private final String street;
+    private final String city;
+    private final String country;
 
     public Address(String street, String city, String country) {
         this.street = street;

@@ -1,16 +1,10 @@
 type: edu
 files:
-- name: src/kryo/Main.java
-  visible: false
 - name: src/kryo/Address.java
   visible: true
 - name: src/kryo/AddressSerializer.java
   visible: true
-- name: data.bin
-  visible: false
 - name: test/Tests.java
   visible: false
 - name: src/kryo/KryoObjectSerializer.java
   visible: true
-- name: data1.bin
-  visible: false

@@ -1,8 +1,17 @@
 <html>
 
-<h2>Task Description</h2>
+<h2>Serialize wizard</h2>
 
-<p>Write a program that returns a byte array of Wizard class object.</p>
-</li>
-</ul>
+<p>
+  Write a program that returns a byte array of Wizard class object. Do not forget registering Wizard class.
+</p>
+<div>
+  <h4>Hint</h4>
+  Returned array mustn't contain trailing zeros. To trim to size byte array:
+  <ul>
+    <li>get actual size of serialized data by Output::position method</li>
+    <li>allocate new byte array with actual size</li>
+    <li>copy serialized data into new byte array</li>
+  </ul>
+</div>
 </html>
